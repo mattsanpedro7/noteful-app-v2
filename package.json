@@ -1,0 +1,20 @@
+{
+	"name": "noteful-app",
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": "Chris Klanac",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cklanac/noteful-app.git"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.16.2",
+		"knex": "^0.14.2",
+		"morgan": "^1.9.0",
+		"pg": "^7.4.1"
+	}
+}

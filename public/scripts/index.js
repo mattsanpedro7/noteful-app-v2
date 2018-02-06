@@ -16,5 +16,11 @@ $(document).ready(function () {
       noteful.render();
     });
 
+  api.search('/v2/tags')
+    .then(response => {
+      store.tags = response;
+      noteful.render();
+    });
+
 });
 
